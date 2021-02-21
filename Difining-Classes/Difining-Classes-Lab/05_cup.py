@@ -3,8 +3,11 @@ class Cup:
         self.size = size
         self.quantity = quantity
 
+    def can_fill(self, milliliters):
+        return milliliters <= self.status()
+
     def fill(self, milliliters):
-        if self.quantity+milliliters > self.size:
+        if not self.can_fill(milliliters):
             return
         self.quantity += milliliters
 
