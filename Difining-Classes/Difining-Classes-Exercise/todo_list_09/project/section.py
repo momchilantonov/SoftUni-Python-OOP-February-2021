@@ -1,4 +1,3 @@
-from typing import List
 from task import Task
 
 
@@ -33,6 +32,7 @@ class Section:
         for task in self.tasks:
             result += task.details()+"\n"
         return result
+
 
 task = Task("Make bed", "27/05/2020")
 print(task.change_name("Go to University"))
