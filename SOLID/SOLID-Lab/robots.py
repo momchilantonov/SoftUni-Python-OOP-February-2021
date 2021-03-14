@@ -3,6 +3,7 @@ from abc import ABC, abstractmethod
 
 class Robot(ABC):
     def __init__(self):
+        pass
 
     @abstractmethod
     def sensors_count(self):
