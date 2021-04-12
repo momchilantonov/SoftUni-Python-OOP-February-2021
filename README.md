@@ -9,3 +9,4 @@ The Python OOP course will teach you the principles of object-oriented programmi
 - Working with iterators and generators
 - Working with decorators
 # Certificate
+# <p align="center"> ![alt text](https://github.com/momchilantonov/SoftUni-Python-OOP-February-2021/blob/main/Python%20OOP%20-%20February%202021%20-%20Certificate.jpeg) <p>
